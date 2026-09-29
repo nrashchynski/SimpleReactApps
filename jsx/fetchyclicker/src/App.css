@@ -1,0 +1,17 @@
+.App {
+    display:flex;
+}
+
+.App .img {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  border-radius: 50%;
+  animation: spin 5s infinite linear;
+
+}
+
+@keyframes spin {
+  0% {transform: rotateZ(0deg);}
+  100% {transform: rotateZ(360deg);}
+}

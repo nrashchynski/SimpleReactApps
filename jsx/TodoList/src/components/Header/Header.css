@@ -1,0 +1,43 @@
+.header {
+    padding: 20px;
+    background: #f5f5f5;
+    border-bottom: 1px solid #ddd;
+}
+
+.header__title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.header__motivation {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 16px;
+}
+
+.header__buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+.header__lang-btn {
+    padding: 8px 16px;
+    border: 1px solid #007AFF;
+    border-radius: 4px;
+    background: white;
+    color: #007AFF;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.header__lang-btn:hover {
+    background: #007AFF;
+    color: white;
+}
+
+.header__current {
+    font-size: 14px;
+    color: #888;
+}
