@@ -81,14 +81,14 @@ npx tsc --noEmit
 
 ## Скриншоты
 
-![Начальный экран ToDo](docs/images/startToDoScreen.png)
-![Начальный экран Calendar](docs/images/startCalendarScreen.png)
-![Сменить тему на темную](docs/images/switchTheme.png)
-![Сменить тему на светлую](docs/images/switchThemeToWhite.png)
-![Добавление задачи](docs/images/addTaskForToday.png)
-![ToDo c задачами](docs/images/toDoScreenWithTasks.png)
-![Calendar с задачами](docs/images/calendarScreenWithTasks.png)
-![Calendar свободный день](docs/images/calendarScreenFreeDay.png)
+<img src="docs/images/startToDoScreen.png" alt="Начальный экран ToDo" width="500">
+<img src="docs/images/startCalendarScreen.png" alt="Начальный экран Calendar" width="500">
+<img src="docs/images/switchTheme.png" alt="Сменить тему на темную" width="500">
+<img src="docs/images/switchThemeToWhite.png" alt="Сменить тему на светлую" width="500">
+<img src="docs/images/addTaskForToday.png" alt="Добавление задачи" width="500">
+<img src="docs/images/toDoScreenWithTasks.png" alt="ToDo c задачами" width="500">
+<img src="docs/images/calendarScreenWithTasks.png" alt="Calendar с задачами" width="500">
+<img src="docs/images/calendarScreenFreeDay.png" alt="Calendar свободный день" width="500">
 
 ## Планы по развитию
 
