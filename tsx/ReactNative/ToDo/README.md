@@ -81,7 +81,7 @@ npx tsc --noEmit
 
 ## Скриншоты
 
-<img src="docs/images/startToDoScreen.png" alt="Начальный экран ToDo" width="350">
+<img src="docs/images/startToDoScreen.png" alt="Начальный экран ToDo" width="300">
 <img src="docs/images/startCalendarScreen.png" alt="Начальный экран Calendar" width="500">
 <img src="docs/images/switchTheme.png" alt="Сменить тему на темную" width="500">
 <img src="docs/images/switchThemeToWhite.png" alt="Сменить тему на светлую" width="500">
