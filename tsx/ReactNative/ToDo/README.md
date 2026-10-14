@@ -82,13 +82,13 @@ npx tsc --noEmit
 ## Скриншоты
 
 <img src="docs/images/startToDoScreen.png" alt="Начальный экран ToDo" width="300">
-<img src="docs/images/startCalendarScreen.png" alt="Начальный экран Calendar" width="500">
-<img src="docs/images/switchTheme.png" alt="Сменить тему на темную" width="500">
-<img src="docs/images/switchThemeToWhite.png" alt="Сменить тему на светлую" width="500">
-<img src="docs/images/addTaskForToday.png" alt="Добавление задачи" width="500">
-<img src="docs/images/toDoScreenWithTasks.png" alt="ToDo c задачами" width="500">
-<img src="docs/images/calendarScreenWithTasks.png" alt="Calendar с задачами" width="500">
-<img src="docs/images/calendarScreenFreeDay.png" alt="Calendar свободный день" width="500">
+<img src="docs/images/startCalendarScreen.png" alt="Начальный экран Calendar" width="300">
+<img src="docs/images/switchTheme.png" alt="Сменить тему на темную" width="300">
+<img src="docs/images/switchThemeToWhite.png" alt="Сменить тему на светлую" width="300">
+<img src="docs/images/addTaskForToday.png" alt="Добавление задачи" width="300">
+<img src="docs/images/toDoScreenWithTasks.png" alt="ToDo c задачами" width="300">
+<img src="docs/images/calendarScreenWithTasks.png" alt="Calendar с задачами" width="300">
+<img src="docs/images/calendarScreenFreeDay.png" alt="Calendar свободный день" width="300">
 
 ## Планы по развитию
 
