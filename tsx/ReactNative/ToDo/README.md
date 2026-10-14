@@ -17,17 +17,17 @@
 
 ## Технологии
 
-| Область | Что используется |
-| --- | --- |
-| Платформа | Expo SDK 57, React Native 0.86.3, React 19.2.3 |
-| Язык | TypeScript (strict) |
-| Навигация | React Navigation — Drawer + Bottom Tabs |
-| Состояние | React Context (`TaskContext`, `ThemeContext`, `AddTaskContext`) |
-| Хранение | `@react-native-async-storage/async-storage` |
-| Календарь | `react-native-calendars` |
-| Жесты / анимации | `react-native-gesture-handler`, `react-native-reanimated` |
-| Иконки | `@expo/vector-icons` |
-| Дата-пикер | `@react-native-community/datetimepicker` |
+| Область          | Что используется                                                |
+| ---------------- | --------------------------------------------------------------- |
+| Платформа        | Expo SDK 57, React Native 0.86.3, React 19.2.3                  |
+| Язык             | TypeScript (strict)                                             |
+| Навигация        | React Navigation — Drawer + Bottom Tabs                         |
+| Состояние        | React Context (`TaskContext`, `ThemeContext`, `AddTaskContext`) |
+| Хранение         | `@react-native-async-storage/async-storage`                     |
+| Календарь        | `react-native-calendars`                                        |
+| Жесты / анимации | `react-native-gesture-handler`, `react-native-reanimated`       |
+| Иконки           | `@expo/vector-icons`                                            |
+| Дата-пикер       | `@react-native-community/datetimepicker`                        |
 
 ## Структура проекта
 
@@ -78,6 +78,17 @@ npx tsc --noEmit
 
 > Приложение использует нативные модули (дата-пикер, жесты). Для запуска удобнее всего **development build**:
 > `npx expo run:ios` / `npx expo run:android` или сборка через EAS.
+
+## Скриншоты
+
+![Начальный экран ToDo](docs/images/startToDoScreen.png)
+![Начальный экран Calendar](docs/images/startCalendarScreen.png)
+![Сменить тему на темную](docs/images/switchTheme.png)
+![Сменить тему на светлую](docs/images/switchThemeToWhite.png)
+![Добавление задачи](docs/images/addTaskForToday.png)
+![ToDo c задачами](docs/images/toDoScreenWithTasks.png)
+![Calendar с задачами](docs/images/calendarScreenWithTasks.png)
+![Calendar свободный день](docs/images/calendarScreenFreeDay.png)
 
 ## Планы по развитию
 

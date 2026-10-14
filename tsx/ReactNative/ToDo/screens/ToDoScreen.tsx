@@ -1,5 +1,5 @@
 import { useMemo } from 'react';
-import { StyleSheet, View, ActivityIndicator } from 'react-native';
+import { StyleSheet, View, ActivityIndicator, Text } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import Header from "../components/Header";
@@ -31,7 +31,13 @@ export default function TodoScreen() {
             </View>
 
             <View style={styles.toDo}>
-                <ToDo tasks={tasks} onToggle={toggleTask} onDelete={deleteTask}/>
+                { tasks.length > 0 ? (
+                    <ToDo tasks={tasks} onToggle={toggleTask} onDelete={deleteTask}/>
+                ) : (
+                    <View style={styles.emptyContainer}>
+                        <Text style={styles.emptyText}>Задач нет. Отдыхайте.</Text>
+                    </View>
+                ) }
             </View>
 
         </SafeAreaView>
@@ -58,5 +64,16 @@ const createStyles = (colors: ThemeColors) => StyleSheet.create({
         flex: 1,
         justifyContent: 'flex-start',
         alignSelf: "stretch",
+    },
+    emptyContainer: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+        paddingBottom: 50,
+    },
+    emptyText: {
+        fontSize: 18,
+        fontWeight: '600',
+        color: colors.textSecondary,
     },
 })
